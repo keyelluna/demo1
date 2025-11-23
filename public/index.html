@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-PORTFOLIO NI KEYEl</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-950">
+    <!--Navigation-->
+    <header class="sticky top-0 z-20 flex justify-center bg-gray-800 md:px-0">
+        <nav class="px-4 text-white rounded-full shadow-2xl md:w-fit md:mx-auto">
+            <div class="p-2 px-2">
+
+                <!-- Navigation for Mobile -->
+                <div class="flex justify-between max-w">
+                    <h3 class="text-red-500 md:hidden">kl</h3>
+                    <div class="">
+                        <ul id="mobile-menu-items" class="flex ml-5 text-white shadow-lg md:hidden">
+                                <li><a href="#home" class="p-4 hover:text-red-700">Home</a></li>
+                                <li><a href="#aboutMe" class="p-4 hover:text-red-700">About</a></li>
+                                <li><a href="#skills" class="p-4 hover:text-red-700">Skills</a></li>
+                                <li><a href="#projectsFeatured" class="p-4 hover:text-red-700">Projects</a></li>
+                                <li><a href="#contacts" class="p-4 hover:text-red-700">Contacts</a></li>
+                            </ul>
+                    </div>
+                </div>
+
+                <ul id="menu" class="hidden space-x-6 md:flex">
+                    <li><a href="#home" class="transition hover:text-red-700">Home</a></li>
+                    <li><a href="#aboutMe" class="transition hover:text-red-700">About</a></li>
+                    <li><a href="#skills" class="transition hover:text-red-700">Skills</a></li>
+                    <li><a href="#projectsFeatured" class="transition hover:text-red-700">Projects</a></li>
+                    <li><a href="#contacts" class="transition hover:text-red-700">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+ <!------------ H O M E ------------>
+
+    <section class="relative min-h-screen" id="home">
+
+    <div class="absolute inset-0 z-0 flex items-center justify-center md:block">
+        <!-- Profile -->
+            <img
+                src="./assets/main.jpg"
+                alt="Desktop Background Image"
+                class="absolute hidden object-cover w-full h-full md:block">
+            </div>
+
+        <div class="relative z-10 w-full px-4 pb-4 pt-28 md:pt-52 md:px-0 md:flex md:justify-center md:w-3/4">
+
+            <div class="flex justify-center mb-8 md:hidden">
+                <img
+                    src="./assets/main_md.jpg"
+                    alt="Mobile Profile Image"
+                    class="object-cover w-48 h-48 rounded-full shadow-2xl">
+            </div>
+
+            <!-- Greetings -->
+            <div class="w-full mx-auto space-y-3 text-center md:w-3/5 md:mx-0 md:text-start">
+
+                <h1 class="mt-16 text-2xl font-extrabold leading-tight text-white md:mt-0 md:text-6xl" id="typingGreetings"></h1>
+                <h2 class="text-lg font-bold text-red-600 transition-opacity duration-1000 opacity-100 md:text-2xl" id="subtitle"></h2>
+                <p class="w-full text-sm text-white md:text-justify md:text-base">
+                    I’m a 3rd-year Computer Science student at MSEUFCI, a passionate developer, editor, and content creator. I enjoy turning ideas into functional and visually appealing digital projects, whether through coding or design. I’m constantly exploring new technologies, improving my skills, and building projects that reflect both creativity and purpose. My goal is to grow as a versatile tech professional who can contribute meaningful solutions and inspiring content to the digital world.
+                </p>
+
+                <!-- SocMed -->
+                <div class="relative flex justify-center gap-3 md:gap-5 md:justify-start">
+                    <button>
+                        <a href="https://github.com/keyelluna" target="_blank">
+                            <img src="./assets/1.png" alt="Github" class="w-8 h-8">
+                        </a>
+                    </button>
+
+                    <button>
+                        <a href="https://www.linkedin.com/in/kim-louren-luna-88a6b9346/" target="_blank">
+                            <img src="./assets/2.png" alt="linkedin" class="w-8 h-8">
+                        </a>
+                    </button>
+                    
+                    <button>
+                        <a href="https://www.instagram.com/_kimlouren_/" target="_blank">
+                            <img src="./assets/3.png" alt="instagram" class="w-8 h-8">
+                        </a>
+                    </button>
+                </div>
+
+                <!-- View Projects btn -->
+                <div class="relative flex justify-center md:justify-start">
+                    <button class="px-2 py-2 text-white transition-colors duration-200 border-2 border-red-600 rounded-lg cursor-pointer w-fit hover:bg-red-600 hover:text-white"> <a href="#projectsFeatured">View My Projects</a></button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+<!-- A B O U T   M E-->
+    <section class="w-full h-screen text-center shadow-md bg-gradient-to-b from-black to-black" id="aboutMe">
+        <div class="p-5 md:pt-20">
+            <h1 class="text-4xl font-extrabold text-white md:font-bold md-10 md:mb-32 md:text-5xl"> <span class="text-5xl font-extrabold text-red-800 md:text-6xl">◂</span> ABOUT ME </h1>
+        </div>
+
+        <div class="flex">
+            <div class="md:grid-cols-8 md:grid">
+                
+                <!-- Profile -->
+                <div class="flex justify-center md:col-start-2 md:col-span-3">
+                    <img src="./assets/aboutKeyel.jpg" alt="" class="duration-1000 -translate-x-20 opacity-0 w-80 about-image">
+                </div>
+
+                <!-- Description -->
+                <div class="text-white md:col-start-5 md:col-span-3">
+                    <p class="mt-10 md:text-justify md:mt-0">I’m a 3rd-year Computer Science student who loves developing, editing, and creating content.</p>
+                    
+                    <div class="mt-8 space-y-6 md:text-start">
+                        <h1 class="md:flex ">
+                            <span class="w-24 font-bold">Name:</span> 
+                            <span class="font-normal">Kim Louren Luna</span>
+                        </h1>
+                        
+                        <h1 class="md:flex">
+                            <span class="w-24 font-bold">Birthday:</span> 
+                            <span class="font-normal">July 5, 2004</span>
+                        </h1>
+                        
+                        <h1 class="md:flex">
+                            <span class="w-24 font-bold">Address:</span> 
+                            <span class="font-normal">Brgy. Castanas, Sariaya, Quezon</span>
+                        </h1>
+                        
+                        <h1 class="md:flex">
+                            <span class="w-24 font-bold">Email:</span> 
+                            <span class="font-normal">lunakimlouren.a@gmail.com</span>
+                        </h1>
+                        
+                        <h1 class="md:flex">
+                            <span class="w-24 font-bold">Mobile Number:</span> 
+                            <span class="font-normal">09810659838</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- S K I L L S -->
+    <section class="w-full h-screen text-center shadow-md bg-gradient-to-b from-black to-black" id="skills">
+        <div class="mb-20 pt-14 md:mb-28">
+            <h1 class="mx-auto text-4xl font-extrabold text-white duration-1000 -translate-x-20 opacity-0 md:font-bold md:text-5xl" id="skillText"> <span class="text-5xl font-extrabold text-red-500 md:text-6xl" font-extrabold>◂</span> TECH STACK</h1>
+        </div>
+
+        <!-- Tech Stack mobile and large size -->
+        <div class="md:space-y-6">
+            
+            <div class=" md:justify-center md:flex md:space-x-6">
+                
+                <div class="flex justify-center gap-5">
+                    
+                    <div class="">
+                        <img src="./assets/html-icon.png" alt="html" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">HTML</span>
+                    </div>
+                    
+                    <div>
+                        <img src="./assets/css-logo.png" alt="css" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">CSS</span>
+                    </div>
+                    
+                </div>
+
+                <div class="flex justify-center gap-5">
+
+                    <div>
+                        <img src="./assets/js-logo.png" alt="js" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">Javascript</span>
+                    </div>
+
+                    <div>
+                        <img src="./assets/bs-logo.png" alt="bs" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">Bootstrap</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+    
+            <div class="md:justify-center md:flex md:space-x-6">
+
+                <div class="flex justify-center gap-5 mad:gap-0">
+                    
+                    <div class="">
+                        <img src="./assets/tailwind-logo.png" alt="tailwind" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">Tailwind</span>
+                    </div>
+                    
+                    <div class="">
+                        <img src="./assets/csharp-logo.png" alt="csharp" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">C#</span>
+                    </div>
+
+                </div>
+
+                <div class="flex justify-center gap-5 md:gap-0">
+                    <div class="">
+                        <img src="./assets/java-logo.png" alt="java" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">Java</span>
+                    </div>
+
+                    <div class="">
+                        <img src="./assets/python-logo.png" alt="python" class="object-contain w-20 h-20 md:h-40 md:w-40">
+                        <span class="mt-1 text-lg font-bold text-white">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!-- P R O J E C T S -->
+   <section class="w-full min-h-screen shadow-md bg-gradient-to-b from-black to-black" id="projectsFeatured">
+
+    <div class="px-4 pt-14 md:px-20">
+
+        <div class="mb-8">
+            <h1 class="text-3xl font-extrabold text-white duration-1000 -translate-x-20 opacity-0 md:font-bold md:text-5xl" id="projects">
+                <span class="text-5xl text-red-600 md:text-6xl">◂</span> FEATURED PROJECTS
+            </h1>
+
+            <p class="mt-2 text-gray-400">Projects that highlight my skills and passion for web development.</p>
+        </div>
+
+
+        <div class="container mx-auto">
+            <div class="grid gap-8 md:grid-cols-3">
+
+                <div class="overflow-hidden bg-gray-800 rounded-lg shadow-xl">
+                    <video src="./assets/scrabbles.mp4" 
+                           class="object-cover w-full transition duration-300 h-44 hover:scale-105" 
+                           loop autoplay muted playsinline>
+                    </video>
+                    <div class="p-4 space-y-2">
+                        <h2 class="text-xl font-bold text-white">Scrabble Scoring Board</h2>
+                        <p class="text-sm text-gray-400">A simple web project for monitoring the score in scrabble that let the user enter the word and automatically provide the score of each player</p>
+                    </div>
+                </div>
+
+                <div class="overflow-hidden bg-gray-800 rounded-lg shadow-xl">
+                    <video src="./assets/order list.mp4" 
+                           class="object-cover w-full transition duration-300 h-44 hover:scale-105" 
+                           loop autoplay muted playsinline>
+                    </video>
+                    <div class="p-4 space-y-2">
+                        <h2 class="text-xl font-bold text-white">Order List</h2>
+                        <p class="text-sm text-gray-400">A simple system for ordering auto parts that let the user input the items and will automatically added to the list.</p>
+                    </div>
+                </div>
+
+                <div class="overflow-hidden bg-gray-800 rounded-lg shadow-xl">
+                    <video src="./assets/jakenpoy.mp4" 
+                           class="object-cover w-full transition duration-300 h-44 hover:scale-105" 
+                           loop autoplay muted playsinline>
+                    </video>
+                    <div class="p-4 space-y-2">
+                        <h2 class="text-xl font-bold text-white">Jak En Poy</h2>
+                        <p class="text-sm text-gray-400">A simple bato-bato-pick, it let the user input the number of round and pick its choice (rock, paper, scissor) then automatically declare the winner after the round ends</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex justify-center pt-12 pb-8">
+                <a href="#next-section" class="inline-block p-4 transition-transform duration-300 transform hover:translate-y-1">
+                    <div class="p-2 text-white bg-red-600 rounded-lg w-fit"> See All Projects ---></div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- C O N T A C T S -->
+    <section class="w-full min-h-screen shadow-md pt-14 bg-gradient-to-b from-black to-black md:flex md:items-center" id="contacts">
+        <div class="px-4 md:px-20">
+            <div class="grid gap-10 md:grid-cols-2">
+
+                <div class="space-y-6">
+                    <h1 class="text-4xl font-extrabold text-white md:text-5xl">
+                        <span class="text-5xl font-extrabold text-red-600 md:text-6xl">◂</span> CONTACT ME
+                    </h1>
+                    <p class="mt-4 text-gray-300 md:text-lg">
+                        I’m always open to new projects, collaborations, and creative ideas. If you need a committed web developer to help bring your vision to life, don’t hesitate to reach out. I’d be glad to connect!
+                    </p>
+
+                    <div class="flex pt-2 space-x-3">
+                        <button>
+                        <a href="https://github.com/keyelluna" target="_blank">
+                            <img src="./assets/1.png" alt="Github" class="w-8 h-8 rounded">
+                        </a>
+                    </button>
+
+                    <button>
+                        <a href="https://www.linkedin.com/in/kim-louren-luna-88a6b9346/" target="_blank">
+                            <img src="./assets/2.png" alt="linkedin" class="w-8 h-8 rounded">
+                        </a>
+                    </button>
+                    
+                    <button>
+                        <a href="https://www.instagram.com/_kimlouren_/" target="_blank">
+                            <img src="./assets/3.png" alt="instagram" class="w-8 h-8 rounded">
+                        </a>
+                    </button>
+
+                    <button>
+                        <a href="https://www.facebook.com/kim.louren.luna" target="_blank">
+                            <img src="./assets/4.png" alt="Facebook" class="w-8 h-8 rounded">
+                        </a>
+                    </button>
+
+                    <button>
+                        <a href="https://www.tiktok.com/@keyelluna?lang=en" target="_blank">
+                            <img src="./assets/5.png" alt="Tiktok" class="w-8 h-8 rounded">
+                        </a>
+                    </button>
+
+                    </div>
+
+                    <div class="pt-4 space-y-2 text-white">
+                        <div class="flex items-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-600" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.42 15.42 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.23.95.31 1.95.48 2.98.48.55 0 1 .45 1 1v3.5c0 .55-.45 1-1 1h-4c-2.76 0-5.46-1.12-7.37-3.03-1.91-1.91-3.03-4.61-3.03-7.37v-4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.03.17 2.03.48 2.98.13.35.04.75-.23 1.02l-2.2 2.2z"/></svg>
+                            <span>+63 9810659838</span> </div>
+                        <div class="flex items-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-600" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            <span>lunakimlouren.a@gmail.com</span> </div>
+                    </div>
+                </div>
+
+                <div class="pt-8 pb-10 md:pt-0">
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 text-white bg-gray-800 border border-gray-700 rounded-md focus:border-red-600 focus:outline-none">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 text-white bg-gray-800 border border-gray-700 rounded-md focus:border-red-600 focus:outline-none">
+                        <input type="text" placeholder="Your Subject" class="w-full p-3 text-white bg-gray-800 border border-gray-700 rounded-md focus:border-red-600 focus:outline-none">
+                        <textarea placeholder="Your Message" rows="5" class="w-full p-3 text-white bg-gray-800 border border-gray-700 rounded-md resize-none focus:border-red-600 focus:outline-none"></textarea>
+                        <button type="submit" class="w-full py-3 text-lg font-bold text-white transition duration-200 bg-red-600 rounded-md shadow-lg shadow-red-800/50 hover:bg-red-700">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
